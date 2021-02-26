@@ -1,3 +1,4 @@
+import TopPageContainer from './containers/TopPageContainer'
 import logo from './assets/logo.svg'
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
                 <p>
                     Edit <code>src/App.tsx</code> and save to reload.
                 </p>
+                <TopPageContainer />
                 <a
                     className="App-link"
                     href="https://reactjs.org"
